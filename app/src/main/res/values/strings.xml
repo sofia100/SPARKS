@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">SPARKS</string>
-    <string name="create">Create</string>
-    <string name="update">Update</string>
-    <string name="product_id">product id</string>
+    <string name="create">CREATE NEW</string>
+    <string name="update">UPDATE</string>
+    <string name="product_id">ITEM ID</string>
+    <string name="price">price</string>
+    <string name="category">category</string>
+    <string name="product_name">Product Name</string>
 </resources>
     <!--
     sofia sunam-->

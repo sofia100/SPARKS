@@ -18,7 +18,7 @@
                     android:id="@+id/idea_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Product Name"
+                    android:hint="@string/product_name"
                     android:inputType="textEmailAddress"
                     android:maxLines="1" />
 
@@ -32,7 +32,7 @@
                     android:id="@+id/idea_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Product id"
+                    android:hint="@string/product_id"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textMultiLine"
                     android:maxLines="5" />
@@ -47,7 +47,7 @@
                     android:id="@+id/idea_owner"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Category"
+                    android:hint="@string/category"
                     android:imeOptions="actionUnspecified" />
 
             </android.support.design.widget.TextInputLayout>
@@ -60,7 +60,7 @@
                     android:id="@+id/idea_status"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="price"
+                    android:hint="@string/price"
                     android:imeOptions="actionUnspecified" />
 
             </android.support.design.widget.TextInputLayout>
@@ -87,6 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="delete"
+                    android:textAllCaps="true"
                     android:layout_weight="1"
                     android:textStyle="bold" />
 
